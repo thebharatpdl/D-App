@@ -20,7 +20,7 @@ app.use(bodyParser.json());
 app.use(express.json());
 
 // Connect to MongoDB
-mongoose.connect("mongodb+srv://bharatpaudel:bharatbp@cluster0.zpbdf.mongodb.net/")
+mongoose.connect("mongodb+srv://bharatpaudel:password@cluster0.zpbdf.mongodb.net/")
   .then(() => {
     console.log("✅ Connected to MongoDB successfully");
   })
